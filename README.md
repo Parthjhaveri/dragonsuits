@@ -1,6 +1,6 @@
 # Dragon Suits
 
-- A Progressive E-Commerce store specializing in Suits and Men's grooming supplies
+- A Progressive E-Commerce store specializing in Men's suits & grooming supplies
 - Built with an offline first, mobile first approach
 - Optimized performance with latest web standards
 
@@ -9,11 +9,13 @@
 - React JS
 - Redux
 - CSS3 / CSS Grid/ BEM Style Guide
+- SASS
 - Fetch API()
 - IndexedDB
-- Service Workers
+- Service Worker for offline use
 - HTML5 with form validation
 - Fully accessible for visually impaired users using ARIA guidelines
+- Clean, beautiful UI
 
 ## Testing
 - Jest
