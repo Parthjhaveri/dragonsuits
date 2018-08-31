@@ -52,7 +52,7 @@ a:focus {
     grid-template-columns: 20% 50% 20%;
     padding: 10px 50px;
     border: 0px solid transparent;
-    border-bottom: 3px solid #f6891f;
+    /*border-bottom: 3px solid #f6891f;*/
 }
 
 /*NAV LOGO*/
@@ -123,7 +123,7 @@ a:focus {
 	display: inline-block;
 	position: relative;
 	right: -10px;
-	top: -3px;
+	top: 0px;
 	color: black;
 	padding: 6px 3px;
 	text-align: center;
@@ -141,7 +141,7 @@ a:focus {
 
 /*MAIN SPLASHER SECTION*/
 .app-main-homepage__main-splasher-section {
-	width: auto;
+	width: 100%;
 	height: 100vh;
 	background-image: url(../images/main-splasher.jp2);
 	background-size: cover;
@@ -155,12 +155,12 @@ a:focus {
 /*LEFT INTRO SECTION ON MAIN SPLASHER*/
 .main-splasher-section__left-intro-section {
 	width: 90%;
-	height: 70%;
-	margin-top: 100px;
+	height: auto;
+	margin-top: 60px;
 	border-radius: 0px;
 	border: 0px solid transparent;
-	background-color: rgba(242, 242, 242, 0.8);
-	padding: 40px;
+	background-color: transparent;
+	padding: 0px;
 	box-sizing: border-box;
 	color: white;
 	text-align: left;
@@ -169,22 +169,75 @@ a:focus {
 
 /*INTRO SECTION HEADING*/
 .left-intro-section__heading {
-	margin: 0;
-	padding: 0;
-	font-weight: 100;
+	font-weight: lighter;
 	letter-spacing: 3px;
 	font-size: 2em;
 	text-transform: uppercase;
-	color: black;
+	color: white;
 }
 
 /*INTRO SECTION HR*/
 .left-intro-section__hr {
+	display: none;
 	width: 100%;
 	height: 1px;
 	margin-top: 20px;
 	border: 0px solid transparent;
 	background: linear-gradient(0.25turn, transparent, #1a1a1a, transparent);
+}
+
+/*SHOP MEN BUTTON*/
+.left-intro-section__shop-men {
+	width: auto;
+	height: 150px;
+	background-color: #1a1a1a;
+	opacity: 0.9;
+	cursor: pointer;
+	text-align: right;
+	padding: 40px;
+	font-size: 1.2em;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: #f2f2f2;
+	box-sizing: border-box;
+}
+
+/*SHOP WOMEN BUTTON*/
+.left-intro-section__shop-women {
+	width: auto;
+	height: 150px;
+	background-color: #666;
+	opacity: 0.9;
+	cursor: pointer;
+	text-align: right;
+	padding: 40px;
+	font-size: 1.2em;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: #f2f2f2;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+/*CITIES WRAPPER*/
+.left-intro-section__cities-wrapper {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+
+/*CITIES*/
+.cities-wrapper__cities {
+	display: inline-block;	
+	color: white;
+	font-size: 1em;
+	font-weight: 100;
+	margin-left: 12px;
+	margin-right: 12px;
+	cursor: pointer;
 }
 
 

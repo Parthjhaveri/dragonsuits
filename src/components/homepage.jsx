@@ -8,10 +8,29 @@ export default function Homepage(props) {
 		<div className='app-main-homepage__main-splasher-section'>
 
 			<div className='main-splasher-section__left-intro-section'>
-				
-				<p className='left-intro-section__heading'>Dragon Suits</p>
 
 				<hr className='left-intro-section__hr' />
+
+				<div className='left-intro-section__heading'>
+					<p>Dragon Suits</p>
+				</div>
+
+				<div className='left-intro-section__shop-men'>
+					<p>Men</p>
+				</div>
+
+				<div className='left-intro-section__shop-women'>
+					<p>Women</p>
+				</div>
+
+				<div className='left-intro-section__cities-wrapper'>
+					<p className='cities-wrapper__cities'>New York</p>
+					<p className='cities-wrapper__cities'>Paris</p>
+					<p className='cities-wrapper__cities'>London</p>
+					<p className='cities-wrapper__cities'>Rome</p>
+					<p className='cities-wrapper__cities'>Mumbai</p>
+					<p className='cities-wrapper__cities'>Shanghai</p>
+				</div>
 
 			</div>
 
