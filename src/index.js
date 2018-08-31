@@ -4,9 +4,11 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom'
 
-const app = <BrowserRouter>
+const app = 
+<BrowserRouter>
 	<App />
 </BrowserRouter>
+
 ReactDOM.render(app, document.getElementById('root'));
 
 // SERVICE WORKER
