@@ -4,38 +4,37 @@ html, body {
   margin: 0px;
   padding: 0px;
   background: #eee;
-  /*font-family: 'Montserrat',Arial,Helvetica,sans-serif;*/
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
 
 /*INPUT AND BUTTON FOCUS STYLES*/
 input:focus {
-	outline: 1px dotted white;
+	outline: 2px dotted #f6891f;
 }
 
-input:focus {
-	outline: 1px dotted white;
+img:focus {
+	outline: 2px dotted #f6891f;
 }
 
 button:focus {
-	outline: 1px dotted white;
+	outline: 2px dotted #f6891f;
 }
 
 p:focus {
-	outline: 1px dotted white;
+	outline: 2px dotted #f6891f;
 }
 
 li:focus {
-	outline: 1px dotted black;
+	outline: 2px dotted #f6891f;
 }
 
 i:focus {
-	outline: 1px dotted white;
+	outline: 2px dotted #f6891f;
 }
 
 a:focus {
-	outline: 1px dotted white;
+	outline: 2px dotted #f6891f;
 }
 
 /*
@@ -59,9 +58,10 @@ a:focus {
 
 /*NAV LOGO*/
 .app-main-nav__nav-logo {
-	width: 50px;
+	width: 45px;
 	height: auto;
 	cursor: pointer;
+	margin-top: 3px;
 }
 
 /*NAV RIGHT WRAPPER*/
