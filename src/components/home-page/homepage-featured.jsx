@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/App.css';
+import '../../styles/App.css';
 
 const FeaturedProds = props => {
 return	<div className='app-main-homepage__featured-prods'>
@@ -17,3 +17,6 @@ return	<div className='app-main-homepage__featured-prods'>
 }
 
 export default FeaturedProds;
+
+
+

@@ -262,7 +262,7 @@ a:focus {
 	padding: 50px;
 	display: grid;
 	grid-template-columns: repeat(4, 20fr);
-	grid-gap: 20px;
+	grid-gap: 10px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT*/

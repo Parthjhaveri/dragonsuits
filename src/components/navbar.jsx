@@ -8,7 +8,7 @@ const Navbar = props => {
 return 	<div className='app-main-nav'>
         	
         	<NavLink to='/'>
-   			<img src={logo} className='app-main-nav__nav-logo' alt='Logo' tabIndex='1' />
+   				<img src={logo} className='app-main-nav__nav-logo' alt='Logo' tabIndex='1' />
    			</NavLink>
 
    			<div className='app-main-nav__nav-mid-wrapper'>
@@ -49,8 +49,15 @@ return 	<div className='app-main-nav'>
 
    			<div className='app-main-nav__login-cart-section'>
    				<p tabIndex='6' className='login-cart-section__login-label'>LOGIN / SIGN-UP</p>
-   				<p tabIndex='7' className='login-cart-section__cart-label'><i className='fa fa-briefcase'></i></p>
-   				<div id='login-cart-section__cart-count-label'>0</div>
+   				
+   				<NavLink 	to='/cart'
+   							style={{ color: 'black', textDecoration: 'none' }}
+							activeStyle={{ color: '#c36cab', fontWeight: 400}}>
+
+   					<p tabIndex='7' className='login-cart-section__cart-label'><i className='fa fa-briefcase'></i></p>
+   					<div id='login-cart-section__cart-count-label'>0</div>
+
+   				</NavLink>
    			</div>
         
       	</div>
