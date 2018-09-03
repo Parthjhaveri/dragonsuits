@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
-import logo from '../images/logo.jpg';
-import Featured_prods from './homepage-featured.jsx';
+import FeaturedProds from './homepage-featured.jsx';
 
 const Homepage = props => {
 return <div className='app-main-homepage'>
@@ -37,7 +36,7 @@ return <div className='app-main-homepage'>
 
 			</div>
 
-			<Featured_prods />
+			<FeaturedProds />
 
 		</div>
 }

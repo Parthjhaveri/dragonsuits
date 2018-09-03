@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
 import logo from '../images/logo.jpg';
 
@@ -18,7 +18,7 @@ return 	<div className='app-main-nav'>
 
    			<div className='app-main-nav__login-cart-section'>
    				<p tabIndex='6' className='login-cart-section__login-label'>LOGIN / SIGN-UP</p>
-   				<p tabIndex='7' className='login-cart-section__cart-label'><i class='fa fa-briefcase'></i></p>
+   				<p tabIndex='7' className='login-cart-section__cart-label'><i className='fa fa-briefcase'></i></p>
    				<div id='login-cart-section__cart-count-label'>0</div>
    			</div>
         

@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
-import logo from '../images/logo.jpg';
 
-const Featured_prods = props => {
-return	<div className='app-main-homepage-featured-prods'>
+const FeaturedProds = props => {
+return	<div className='app-main-homepage__featured-prods'>
 			
-			
+			<div className='featured-prods__indiv-prod'>
+			</div>
+			<div className='featured-prods__indiv-prod'>
+			</div>
+			<div className='featured-prods__indiv-prod'>
+			</div>
+			<div className='featured-prods__indiv-prod'>
+			</div>
 	
 		</div>
 }
 
-export default Featured_prods;
+export default FeaturedProds;
