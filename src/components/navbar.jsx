@@ -1,18 +1,49 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import '../styles/App.css';
 import logo from '../images/logo.jpg';
 
 const Navbar = props => {
 return 	<div className='app-main-nav'>
         	
+        	<NavLink to='/'>
    			<img src={logo} className='app-main-nav__nav-logo' alt='Logo' tabIndex='1' />
+   			</NavLink>
 
    			<div className='app-main-nav__nav-mid-wrapper'>
    				<ul className='nav-mid-wrapper__links-ul'>
-   					<li tabIndex='2' className='links-ul__link'>Shop</li>
-   					<li tabIndex='3' className='links-ul__link'>Accessories</li>
-   					<li tabIndex='4' className='links-ul__link'>About</li>
-   					<li tabIndex='5' className='links-ul__link'>Contact us</li>
+   					<li tabIndex='2' className='links-ul__link'>
+   						<NavLink 	to='/shop' 
+   									style={{ color: 'black', textDecoration: 'none' }}
+   									activeStyle={{ color: '#c36cab', fontWeight: 400}}>
+   									Shop
+   						</NavLink>
+   					</li>
+   					
+   					<li tabIndex='3' className='links-ul__link'>
+   						<NavLink 	to='/accessories'
+   									style={{ color: 'black', textDecoration: 'none' }}
+   									activeStyle={{ color: '#c36cab', fontWeight: 400}}>
+   									Accessories
+   						</NavLink>
+   					</li>
+   					
+   					<li tabIndex='4' className='links-ul__link'>
+   						<NavLink 	to='/about'
+   									style={{ color: 'black', textDecoration: 'none' }}
+   									activeStyle={{ color: '#c36cab', fontWeight: 400}}>
+   									About
+   						</NavLink>
+   					</li>
+   					
+   					<li tabIndex='5' className='links-ul__link'>
+   						<NavLink 	to='/contact'
+   									style={{ color: 'black', textDecoration: 'none' }}
+   									activeStyle={{ color: '#c36cab', fontWeight: 400}}>
+   									Contact us
+   						</NavLink>
+   					</li>
    				</ul>
    			</div>
 
