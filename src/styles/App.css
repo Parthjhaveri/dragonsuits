@@ -52,6 +52,7 @@ a:focus {
     grid-template-columns: 20% 50% 20%;
     padding: 10px 50px;
     border: 0px solid transparent;
+    z-index: 9999;
     /*border-bottom: 3px solid #f6891f;*/
 }
 
@@ -81,9 +82,10 @@ a:focus {
 	display: inline-block;
 	margin-right: 5%;
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: 400;
 	cursor: pointer;
 	letter-spacing: 1.2px;
+	font-size: 14px;
 }
 
 /*LOGIN/CART SECTION*/
@@ -102,6 +104,8 @@ a:focus {
 	cursor: pointer;
 	display: inline-block;
 	box-sizing: border-box;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 /*CART LABEL*/
@@ -202,6 +206,11 @@ a:focus {
 	box-sizing: border-box;
 }
 
+.left-intro-section__shop-men:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+
 /*SHOP WOMEN BUTTON*/
 .left-intro-section__shop-women {
 	width: auto;
@@ -217,6 +226,11 @@ a:focus {
 	color: #f2f2f2;
 	box-sizing: border-box;
 	margin-top: 10px;
+}
+
+.left-intro-section__shop-women:hover {
+	opacity: 1;
+	transition: 0.2s;
 }
 
 /*CITIES WRAPPER*/
@@ -240,6 +254,12 @@ a:focus {
 	cursor: pointer;
 }
 
+/*HOME PAGE FEATURED PRODUCTS*/
+.app-main-homepage-featured-prods {
+	width: auto;
+	height: 600px;
+	background-color: white;
+}
 
 
 
