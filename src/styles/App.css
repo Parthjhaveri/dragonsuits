@@ -273,6 +273,14 @@ a:focus {
 	margin: 0px auto;
 }
 
+/*CART PAGE*/
+.app-main-cart {
+	width: auto;
+	height: 100vh;
+	padding: 100px 50px;
+	background-color: #eee;
+}
+
 
 
 
