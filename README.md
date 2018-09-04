@@ -21,3 +21,10 @@
 - Jest
 - Backstop JS for snap-shot testing
 
+Credit:
+Macys
+
+***
+This is a website for educational, practice and/or demonstration purposes only.
+***
+
