@@ -1,63 +1,52 @@
-/*
-    GLOBAL ID FOR: 
-    SUITS STARTS WITH #90-
-    PANTS STARTS WITH #50-
-*/
-
 {
-  "suits": [
-    
+  "products": [
     {
-      "id": 905506,
+      "id": "SU905506",
       "name": "Wool slim fit - Evening Charcoal Grey",
       "description": "Crafted with excellence and histoic wool fabric, the slim suit in charcoal is a great option for any occasion. For a pure masculine look, wear it with our trouser piece!",
       "keywords": [
         "charcoal", "wool", "fall"
       ],
-      "image": "",
+      "image": "suits_one.jpg",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 1435
     },
-
+    
     {
-      "id": 905507,
+      "id": "SU905507",
       "name": "Wool slim fit - Royal Navy Blue",
       "description": "Following a histoic style-guide which dates back centuries, this Royal fabric will give you a clean, royal aura.",
       "keywords": [
         "royal", "wool", "navy", "blue", "historic", "evening"
       ],
-      "image": "",
+      "image": "suits_two.jpg",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 1650
     },
 
     {
-      "id": 905509,
+      "id": "SU905508",
       "name": "Modern slim fit - Royal Air Blue",
       "description": "A modern, urban and trendy piece - sure to make you look your best at those weekend rooftop socials!",
       "keywords": [
         "royal", "air", "modern", "blue", "rooftop", "evening", "denim"
       ],
-      "image": "",
+      "image": "suits_one.jpg",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 980
     },
 
     {
-      "id": 905510,
+      "id": "SU905509",
       "name": "Slim fit - Corporate Brown",
       "description": "Perfect for the office and those work events, this sleek Blazer will have you setting trends where ever you are.",
       "keywords": [
         "brown", "royal", "professional", "office", "blazer", "slim"
       ],
-      "image": "",
+      "image": "suits_two.jpg",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 1260
-    },
-  
+    }
 
-  
-
-
-  ] // - - - ENDS SUITS ARRAY
+  ]
 }

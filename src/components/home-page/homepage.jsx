@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../styles/App.css';
-import FeaturedProds from './homepage-featured.jsx';
+
+import FeaturedProds from './index.js';
+import data from '../../data/products.json';
 
 const Homepage = props => {
 return <div className='app-main-homepage'>
@@ -36,9 +38,12 @@ return <div className='app-main-homepage'>
 
 			</div>
 
-			<FeaturedProds />
+			<FeaturedProds products={ data.products }/>
 
 		</div>
 }
 
 export default Homepage;
+
+
+
