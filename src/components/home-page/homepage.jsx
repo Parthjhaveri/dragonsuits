@@ -13,16 +13,18 @@ return <div className='app-main-homepage'>
 
 					<hr className='left-intro-section__hr' />
 
-					<div className='left-intro-section__heading'>
-						<p>Dragon Suits</p>
-					</div>
+					<div className='left-intro-section__wrapper'>	
+						<div className='left-intro-section__heading'>
+							<p>Dragon Suits</p>
+						</div>
 
-					<div className='left-intro-section__shop-men'>
-						<p>Men</p>
-					</div>
+						<div className='left-intro-section__shop-men'>
+							<p>Men</p>
+						</div>
 
-					<div className='left-intro-section__shop-women'>
-						<p>Women</p>
+						<div className='left-intro-section__shop-women'>
+							<p>Women</p>
+						</div>
 					</div>
 
 					<div className='left-intro-section__cities-wrapper'>

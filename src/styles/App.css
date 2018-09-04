@@ -170,6 +170,18 @@ a:focus {
 	overflow: hidden;
 }
 
+/*LEFT INTRO SECTION WRAPPER*/
+.left-intro-section__wrapper {
+	width: auto;
+	height: auto;
+	background-color: rgba(26, 26, 26, 0.5);
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+}
+
 /*INTRO SECTION HEADING*/
 .left-intro-section__heading {
 	font-weight: lighter;
@@ -194,7 +206,7 @@ a:focus {
 	width: auto;
 	height: 150px;
 	background-color: #1a1a1a;
-	opacity: 0.9;
+	opacity: 1;
 	cursor: pointer;
 	text-align: right;
 	padding: 40px;
@@ -205,17 +217,12 @@ a:focus {
 	box-sizing: border-box;
 }
 
-.left-intro-section__shop-men:hover {
-	opacity: 1;
-	transition: 0.2s;
-}
-
 /*SHOP WOMEN BUTTON*/
 .left-intro-section__shop-women {
 	width: auto;
 	height: 150px;
 	background-color: #666;
-	opacity: 0.9;
+	opacity: 1;
 	cursor: pointer;
 	text-align: right;
 	padding: 40px;
@@ -225,11 +232,6 @@ a:focus {
 	color: #f2f2f2;
 	box-sizing: border-box;
 	margin-top: 10px;
-}
-
-.left-intro-section__shop-women:hover {
-	opacity: 1;
-	transition: 0.2s;
 }
 
 /*CITIES WRAPPER*/
