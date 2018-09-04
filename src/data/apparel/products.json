@@ -9,7 +9,7 @@
       ],
       "image": "evening_charcoal_grey.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
-      "price": 1435
+      "price": 435
     },
     
     {
@@ -21,7 +21,7 @@
       ],
       "image": "suits_two.jpg",
       "size": [ 36, 38, 40, 42, 44, 46 ],
-      "price": 1650
+      "price": 650
     },
 
     {
@@ -57,7 +57,7 @@
       ],
       "image": "canali_mens_grey.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
-      "price": 1550
+      "price": 550
     },  
 
     {
@@ -69,7 +69,31 @@
       ],
       "image": "techni_cole_black.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
-      "price": 1550
+      "price": 895
+    },
+
+    {
+      "id": "SU905512",
+      "name": "Cloud-Gray slim-fit",
+      "description": "Uniform and exceptional tailoring, this suit has a unique cut favorable to those who strive for excellence.",
+      "keywords": [
+        "silver", "cloud-gray", "flex"
+      ],
+      "image": "cloud_gray_slim_fit.jp2",
+      "size": [ 36, 38, 40, 42, 44, 46 ],
+      "price": 450
+    },
+
+    {
+      "id": "SU905511",
+      "name": "Techni-Cole light grey",
+      "description": "Flexible cut, with a signature cut for the on-the-go professional.",
+      "keywords": [
+        "black", "techni-cole", "flex", "tuxedo", "Canali"
+      ],
+      "image": "techni_cole_light_grey.jp2",
+      "size": [ 36, 38, 40, 42, 44, 46 ],
+      "price": 695
     }
 
   ]
