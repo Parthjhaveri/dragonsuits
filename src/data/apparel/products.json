@@ -2,12 +2,12 @@
   "products": [
     {
       "id": "SU905506",
-      "name": "Wool slim fit - Evening Charcoal Grey",
+      "name": "Wool slim fit - Charcoal Grey",
       "description": "Crafted with excellence and histoic wool fabric, the slim suit in charcoal is a great option for any occasion. For a pure masculine look, wear it with our trouser piece!",
       "keywords": [
         "charcoal", "wool", "fall"
       ],
-      "image": "suits_one.jpg",
+      "image": "evening_charcoal_grey.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 1435
     },
@@ -31,21 +31,45 @@
       "keywords": [
         "royal", "air", "modern", "blue", "rooftop", "evening", "denim"
       ],
-      "image": "suits_one.jpg",
+      "image": "royal_navy_blue.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
       "price": 980
     },
 
     {
       "id": "SU905509",
-      "name": "Slim fit - Corporate Brown",
+      "name": "Slim Chocolate Cherry Brown",
       "description": "Perfect for the office and those work events, this sleek Blazer will have you setting trends where ever you are.",
       "keywords": [
         "brown", "royal", "professional", "office", "blazer", "slim"
       ],
-      "image": "suits_two.jpg",
+      "image": "slim_fit_stretch_tan.jp2",
       "size": [ 36, 38, 40, 42, 44, 46 ],
-      "price": 1260
+      "price": 260
+    },
+    
+    {
+      "id": "SU905510",
+      "name": "Canali regular Fit Solid - Grey",
+      "description": "A modern feel, superb cut and handsome edges - this suit looks best with a white or light aqua blue shirt.",
+      "keywords": [
+        "blue", "grey", "greyhound", "suit", "Canali"
+      ],
+      "image": "canali_mens_grey.jp2",
+      "size": [ 36, 38, 40, 42, 44, 46 ],
+      "price": 1550
+    },  
+
+    {
+      "id": "SU905511",
+      "name": "Techni-Cole slim-fit",
+      "description": "Flexible cut, with a signature cut for the fashion and travel savvy.",
+      "keywords": [
+        "black", "techni-cole", "flex", "tuxedo", "Canali"
+      ],
+      "image": "techni_cole_black.jp2",
+      "size": [ 36, 38, 40, 42, 44, 46 ],
+      "price": 1550
     }
 
   ]

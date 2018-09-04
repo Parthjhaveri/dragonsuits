@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/App.css';
 
 import FeaturedProds from './index.js';
-import data from '../../data/products.json';
+import data from '../../data/apparel/products.json';
 
 const Homepage = props => {
 return <div className='app-main-homepage'>

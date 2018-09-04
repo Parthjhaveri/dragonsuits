@@ -10,8 +10,11 @@ return	<div className='app-main-homepage__featured-product' id={props.product.id
 						src={`./featured-imgs/${props.product.image}`}
 						alt={props.product.name}
 				/>
-				<p>{props.product.name}</p>								
-				<p>${props.product.price}</p>
+
+				<div className='indiv-prod__name-wrapper'>
+					<p className='indiv-prod__name'>{props.product.name}</p>								
+					<p className='indiv-prod__price'>${props.product.price}</p>
+				</div>
 										
 		</div>
 }

@@ -53,7 +53,6 @@ a:focus {
     padding: 10px 50px;
     border: 0px solid transparent;
     z-index: 9999;
-    border-bottom: 3px solid #1a1a1a;
 }
 
 /*NAV LOGO*/
@@ -262,23 +261,49 @@ a:focus {
 	padding: 50px;
 	display: grid;
 	grid-template-columns: repeat(4, 20fr);
-	grid-gap: 10px;
+	grid-column-gap: 15px;
+	grid-row-gap: 40px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT DIV*/
 .app-main-homepage__featured-product {
+	width: auto;
+	height: auto;
 	text-align: center;
 	line-height: 1.4em;
 	font-weight: 100;
 	letter-spacing: .75px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT IMAGE*/
 .featured-prods__indiv-prod {
 	width: 100%;
 	height: auto;
-	background-color: #eee;
 	margin: 0px auto;
+}
+
+/*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT IMAGE*/
+.indiv-prod__name-wrapper {
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0px;
+}
+
+/*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT NAME*/
+.indiv-prod__name {	
+	font-weight: 300;
+}
+
+/*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT PRICE*/
+.indiv-prod__price {	
+	font-weight: 500;
 }
 
 /*CART PAGE*/
