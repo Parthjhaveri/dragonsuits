@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/App.css';
+// import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
+import 'font-awesome/css/font-awesome.min.css';
 
 import FeaturedProds from './index.js';
 import data from '../../data/apparel/products.json';

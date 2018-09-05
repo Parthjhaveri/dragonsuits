@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import '../styles/App.css';
-import logo from '../images/logo.jpg';
+import '../../styles/App.css';
+import logo from '../../images/logo.jpg';
 
 const Navbar = props => {
 return 	<div className='app-main-nav'>

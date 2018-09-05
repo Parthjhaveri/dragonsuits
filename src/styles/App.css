@@ -174,7 +174,7 @@ a:focus {
 .left-intro-section__wrapper {
 	width: auto;
 	height: auto;
-	background-color: rgba(26, 26, 26, 0.5);
+	background-color: rgba(26, 26, 26, 0.8);
 	padding: 20px;
 	box-sizing: border-box;
 	position: relative;
@@ -264,7 +264,7 @@ a:focus {
 	display: grid;
 	grid-template-columns: repeat(4, 20fr);
 	grid-column-gap: 15px;
-	grid-row-gap: 40px;
+	grid-row-gap: 15px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT DIV*/
@@ -281,32 +281,62 @@ a:focus {
 	cursor: pointer;
 }
 
+/*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT WRAPPER*/
+.indiv-prod__wrapper {
+	width: auto;
+	height: auto;
+	padding: 0px;
+	margin: 0px auto;
+	background-color: transparent;
+}
+
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT IMAGE*/
 .featured-prods__indiv-prod {
 	width: 100%;
 	height: auto;
 	margin: 0px auto;
+	margin-bottom: -6px;
 }
 
-/*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT IMAGE*/
+/*HOME PAGE FEATURED PRODUCTS GREY DIV*/
 .indiv-prod__name-wrapper {
 	width: 100%;
 	height: auto;
 	background-color: #eee;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	box-sizing: border-box;
-	position: absolute;
-	bottom: 0px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT NAME*/
 .indiv-prod__name {	
 	font-weight: 300;
+	margin: 0px;
+	margin-bottom: 10px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT PRICE*/
 .indiv-prod__price {	
 	font-weight: 500;
+	margin: 0px;
+}
+
+/*ADD TO CART BUTTON*/
+.indiv-prod__add-to-cart-btn {
+	width: 100%;
+	margin: 0px;
+	padding: 15px 0px;
+	background-color: transparent;
+	height: auto;
+	background-color: #d9d9d9;
+	box-sizing: border-box;
+	border: none;
+	cursor: pointer;
+}
+
+/*ADD TO CART BUTTON ICON*/
+#add-to-cart {
+	cursor: pointer;
+	font-size: 20px;
 }
 
 /*CART PAGE*/
@@ -316,7 +346,6 @@ a:focus {
 	padding: 100px 50px;
 	background-color: #eee;
 }
-
 
 
 
