@@ -9,7 +9,7 @@ import FeaturedProduct from './featured-product.js';
 // FEATURED PRODUCTS SECTION ON HOME PAGE
 ////////////////////////////////////////////////////////////
 
-const FeaturedProds = props => {
+function FeaturedProds (props) {
 return	<div className='app-main-homepage__featured-prods'>
 			
 			{
