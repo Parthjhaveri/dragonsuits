@@ -2,8 +2,7 @@ import { createStore, combineReducers } from 'redux';
 import cartReducer from '../components/cart/reducer.js';
 
 const rootReducer = combineReducers({
-	// cart: cartReducer
-	cart: null
+	cart: cartReducer	
 }) 
 
 const store = createStore(

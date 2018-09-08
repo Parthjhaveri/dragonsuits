@@ -14,24 +14,32 @@ return	<div className='app-main-homepage__featured-prods'>
 			
 			{
 				props.products.map( (product, key) => 
-					<FeaturedProduct product={product} key={key} />)
+					<FeaturedProduct 
+						product={product} 
+						key={key} 
+						addToCart={props.addToCart} 
+					/>)
 			}
 	
 		</div>
 }
 
-const mapStateToProps = (state) => {
-	cart: state.cart
+function mapStateToProps (state) {
+	return {
+		cart: state.cart
+	}
 }
 
-const mapDispatchToProps = (dispatch) => {
-	
-	addToCart: (item) => {
-		dispatch({ type: 'ADD', payload: item });
-	}
+function mapDispatchToProps (dispatch) {
+	return {
 
-	removeFromCart: (item) => {
-		dispatch({ type: 'REMOVE', payload: item });
+		addToCart: (item) => {
+			dispatch({ type: 'ADD', payload: item });
+		},
+
+		removeFromCart: (item) => {
+			dispatch({ type: 'REMOVE', payload: item });
+		}
 	}
 
 }

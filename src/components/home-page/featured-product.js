@@ -17,7 +17,10 @@ return	<div className='app-main-homepage__featured-product' id={props.product.id
 					<p className='indiv-prod__price'>${props.product.price}</p>
 				</div>
 				
-				<button className='indiv-prod__add-to-cart-btn'>
+				<button 
+					className='indiv-prod__add-to-cart-btn'
+					onClick={() => props.addToCart(props.product)}
+				>
 					<i className="fas fa-suitcase" id='add-to-cart'></i>
 				</button>
 			</div>
