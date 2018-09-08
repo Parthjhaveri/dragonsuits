@@ -4,7 +4,7 @@ import '../../styles/App.css';
 const Cart = props => {
 return  <div className='app-main-cart'>
 			
-			<h1>Caaaart!</h1>
+			<h1>Caaaart!!</h1>
 
 		</div>
 }

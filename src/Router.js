@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Homepage from './components/home-page/homepage.jsx'; 
-import Cart from './components/cart/cart.jsx'; 
+import Cart from './components/cart/index.js'; 
 
 const Router = () => (
 	<Switch>
