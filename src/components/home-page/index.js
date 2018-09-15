@@ -3,24 +3,24 @@ import { connect } from 'react-redux';
 
 
 import '../../styles/App.css';
-import FeaturedProduct from './featured-product.js';
+import FeaturedProduct from './featured-product.jsx';
+import cart_items_with_quantity from '../cart/index.js';
 
 ////////////////////////////////////////////////////////////
 // FEATURED PRODUCTS SECTION ON HOME PAGE
 ////////////////////////////////////////////////////////////
 
 function FeaturedProds (props) {
-return	<div className='app-main-homepage__featured-prods'>
-			
+return	<div className='app-main-homepage__featured-prods'>			
 			{
 				props.products.map( (product, key) => 
 					<FeaturedProduct 
 						product={product} 
 						key={key} 
 						addToCart={props.addToCart} 
+						cart={cart_items_with_quantity(props.cart)}
 					/>)
-			}
-	
+			}	
 		</div>
 }
 

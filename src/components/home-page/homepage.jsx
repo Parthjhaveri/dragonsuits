@@ -7,7 +7,7 @@ import FeaturedProds from './index.js';
 import data from '../../data/apparel/products.json';
 
 const Homepage = props => {
-return <div className='app-main-homepage'>
+return  <div className='app-main-homepage'>
 
 			<div className='app-main-homepage__main-splasher-section'>
 
