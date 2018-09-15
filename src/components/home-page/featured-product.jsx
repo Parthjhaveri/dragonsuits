@@ -24,12 +24,12 @@ return	<div className='app-main-homepage__featured-product' id={props.product.id
 					className='indiv-prod__add-to-cart-btn'
 					onClick={() => props.addToCart(props.product)} 
 				>
-					<i className="fas fa-suitcase" id='add-to-cart'></i>
+					<i className="fas fa-suitcase" id='add-to-cart'></i> 
 					({(this_item_in_cart && this_item_in_cart.quantity) || 0})
 				</button>
 			</div>
 										
-		</div>
+		</div>  
 }
 
 export default FeaturedProduct;
