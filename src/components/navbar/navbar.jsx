@@ -5,6 +5,8 @@ import '../../styles/App.css';
 import logo from '../../images/logo.jpg';
 
 const Navbar = props => {
+
+// console.log(props);
 return 	<div className='app-main-nav'>
         	
         	<NavLink to='/'>

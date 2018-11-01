@@ -133,6 +133,12 @@ a:focus {
 	box-sizing: border-box;
 }
 
+/*
+////////////////////////////////////////////////////////////////////////////////
+	MAIN HOME PAGE STYLES
+////////////////////////////////////////////////////////////////////////////////
+*/
+
 /*MAIN HOME PAGE*/
 .app-main-homepage {
 	width: auto;
@@ -302,22 +308,25 @@ a:focus {
 .indiv-prod__name-wrapper {
 	width: 100%;
 	height: auto;
-	background-color: #eee;
+	background-color: #f2f2f2;
 	padding: 10px 10px;
 	box-sizing: border-box;
+	color: #1a1a1a;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT NAME*/
 .indiv-prod__name {	
 	font-weight: 300;
 	margin: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	font-size: 13px;
 }
 
 /*HOME PAGE FEATURED PRODUCTS INDIVIDUAL PRODUCT PRICE*/
 .indiv-prod__price {	
 	font-weight: 500;
 	margin: 0px;
+	font-size: 13px;
 }
 
 /*ADD TO CART BUTTON*/
@@ -348,8 +357,19 @@ a:focus {
 	background-color: #eee;
 }
 
+/*
+////////////////////////////////////////////////////////////////////////////////
+	PRODUCT PAGE COMPONENT STYLES
+////////////////////////////////////////////////////////////////////////////////
+*/
 
-
+/*PRODUCT PAGE MAIN WRAPPER STYLES*/
+.section-product-wrapper-main {
+	width: 100%;
+	height: 100vh;
+	background-color: #666;
+	padding: 100px 50px 50px 50px;
+}
 
 
 

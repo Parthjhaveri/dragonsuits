@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "SU905506",
-      "name": "Wool slim fit - Charcoal Grey",
+      "name": "Wool slim fit-Charcoal Grey",
       "description": "Crafted with excellence and histoic wool fabric, the slim suit in charcoal is a great option for any occasion. For a pure masculine look, wear it with our trouser piece!",
       "keywords": [
         "charcoal", "wool", "fall"
@@ -15,7 +15,7 @@
     
     {
       "id": "SU905507",
-      "name": "Wool slim fit - Royal Navy Blue",
+      "name": "Wool slim fit-Royal Navy Blue",
       "description": "Following a histoic style-guide which dates back centuries, this Royal fabric will give you a clean, royal aura.",
       "keywords": [
         "royal", "wool", "navy", "blue", "historic", "evening"
@@ -28,7 +28,7 @@
 
     {
       "id": "SU905508",
-      "name": "Modern slim fit - Royal Air Blue",
+      "name": "Modern slim fit-Royal Air Blue",
       "description": "A modern, urban and trendy piece - sure to make you look your best at those weekend rooftop socials!",
       "keywords": [
         "royal", "air", "modern", "blue", "rooftop", "evening", "denim"
@@ -54,7 +54,7 @@
     
     {
       "id": "SU905510",
-      "name": "Canali regular Fit Solid - Grey",
+      "name": "Canali regular Fit Solid-Grey",
       "description": "A modern feel, superb cut and handsome edges - this suit looks best with a white or light aqua blue shirt.",
       "keywords": [
         "blue", "grey", "greyhound", "suit", "Canali"
@@ -92,7 +92,7 @@
     },
 
     {
-      "id": "SU905511",
+      "id": "SU905513",
       "name": "Techni-Cole light grey",
       "description": "Flexible cut, with a signature cut for the on-the-go professional.",
       "keywords": [
