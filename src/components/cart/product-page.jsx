@@ -19,6 +19,8 @@ class Product_description extends React.Component {
 			var prod_img = STORE_STATE.cart[0].image;		
 			var prod_name = STORE_STATE.cart[0].name;		
 			var prod_desc = STORE_STATE.cart[0].description;		
+			var prod_price = STORE_STATE.cart[0].price;		
+			var prod_size = STORE_STATE.cart[0].size;		
 			
 		}
 
@@ -34,6 +36,33 @@ class Product_description extends React.Component {
 
 					<p className='prod-specs__name'>{prod_name}</p>
 					<p className='prod-specs__desc'>{prod_desc}</p>
+					<p className='prod-specs__price'>${prod_price}<span className="price-span"> /USD</span></p>
+
+					<p className='prod-specs__avail-sizes'>Available sizes:</p>
+					
+					<p className='prod-specs__sizes'>
+					{
+						prod_size.map((item, idx) => {
+							console.log(item)							
+							return item + " " 
+						})
+					}
+					</p>
+
+					<label for='add-to-cart-button'>
+						<button className='prod-specs__add-to-cart'
+								id='prod-add-to-cart'
+								name='add-to-cart-button'
+								tabindex=''
+								value='Add To Cart'
+						>
+						Add To Cart
+						</button>
+					</label>
+
+					<hr className='prod-specs__hr' />
+					<h3 className='prod-specs__free-ship-label'>Free returns on all products up to 14 days</h3>
+					<hr className='prod-specs__hr' />
 
 				</div>
 
