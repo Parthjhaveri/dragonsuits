@@ -7,10 +7,11 @@ import FeaturedProduct from './components/home-page/homepage.jsx';
 const Router = () => (
 	<Switch>
 		<Route exact path='/' component={Homepage} /> 
-		<Route exact path='/product/:prod' component={Product_description} />
-		{//<Route exact path='/cart' component={Cart} />
-		} 
+		<Route exact path='/product/:prod/:id' component={Product_description} />
 	</Switch>
 )
 
 export default Router;
+
+
+

@@ -38,7 +38,7 @@ const FeaturedProduct = props => {
 return	<div className='app-main-homepage__featured-product' id={props.product.id}>
 			
 			<Link to={
-				{ pathname: '/product' + `/${(props.product.name).replace(/ /g,'-')}`}
+				{ pathname: '/product' + `/${(props.product.name).replace(/ /g,'-')}` + '/product_id=' + `${(props.product.id)}`}
 			}>
 
 				<div className='indiv-prod__wrapper' onClick={log_prod}>
@@ -53,16 +53,7 @@ return	<div className='app-main-homepage__featured-product' id={props.product.id
 						<p className='indiv-prod__name'>{props.product.name}</p>								
 						<p className='indiv-prod__price'>${props.product.price}</p>
 					</div>
-									
-					{
-					// <button 
-					// 	className='indiv-prod__add-to-cart-btn'
-					// 	onClick={() => props.addToCart(props.product)} 
-					// >
-					// 	<i className="fas fa-suitcase" id='add-to-cart'></i> 
-					// 	({(this_item_in_cart && this_item_in_cart.quantity) || 0})
-					// </button>
-					}				
+												
 				</div>
 			</Link>
 										
@@ -72,4 +63,12 @@ return	<div className='app-main-homepage__featured-product' id={props.product.id
 export default FeaturedProduct;
 
 
-
+{
+// <button 
+// 	className='indiv-prod__add-to-cart-btn'
+// 	onClick={() => props.addToCart(props.product)} 
+// >
+// 	<i className="fas fa-suitcase" id='add-to-cart'></i> 
+// 	({(this_item_in_cart && this_item_in_cart.quantity) || 0})
+// </button>
+}	
