@@ -27,12 +27,12 @@ const FeaturedProduct = props => {
 	
 
 	// SEND DATA TO REDUX STORE SO THAT IT CAN BE INHERITED INTO THE PRODUCT PAGE...
-	const log_prod = (event) => {
+	var log_prod = (event) => {
 		// console.log("Event dot target ", event.target);
 		// console.log("Props dot product ", props.product);
 
 		// ADDS ITEM TO THE CART ON CLICK
-		props.dataToProductPage(props.product);
+		props.dataToProductPage(props.product);			
 	}
 
 return	<div className='app-main-homepage__featured-product' id={props.product.id}>

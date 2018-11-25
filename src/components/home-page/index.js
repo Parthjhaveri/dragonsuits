@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import '../../styles/App.css';
 import FeaturedProduct from './featured-product.jsx';
 import cart_items_with_quantity from '../cart/index.js';
+import Product_description from '../cart/product-page.jsx';
 
 ////////////////////////////////////////////////////////////
 // FEATURED PRODUCTS SECTION ON HOME PAGE
@@ -32,6 +33,7 @@ return	<div className='app-main-homepage__featured-prods'>
 						product={product} 
 						key={key} 
 						addToCart={props.addToCart} 
+						removeFromCart={props.removeFromCart} 
 						cart={cart_items_with_quantity(props.cart)}
 						dataToProductPage={props.dataToProductPage}
 					/>)
@@ -42,7 +44,8 @@ return	<div className='app-main-homepage__featured-prods'>
 // CONNECTS ALL OUR PROPS BETWEEN COMPONENTS TO THE STATE
 function mapStateToProps (state) {
 	return {
-		cart: state.cart
+		cart: state.cart,
+		stateHolder: state.stateHolder
 	}
 }
 
@@ -66,7 +69,7 @@ function mapDispatchToProps (dispatch) {
 
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(FeaturedProds);
+export default connect(mapStateToProps, mapDispatchToProps)(FeaturedProds, Product_description);
 
 
 
